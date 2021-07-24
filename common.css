@@ -1,0 +1,42 @@
+:root {
+  writing-mode: vertical-rl;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  font-family: 'Noto Sans TC', 'Noto Sans KR', sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+}
+button:not(:disabled),
+input[type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  flex: auto;
+}
+
+sheep-btn {
+  right: auto;
+  left: 10px;
+}
