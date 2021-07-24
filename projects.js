@@ -19,12 +19,12 @@ function randomGradient () {
 }
 
 const projectNames = [
-  '事業', // project
-  '마이事業', // my project
-  '애計劃', // a program
-  '비디오갬', // video game
-  '자바스크리프트', // JavaScript
-  '갬', // game
+  '文档名称', // project
+  '文档名称', // my project
+  '文档名称', // a program
+  '文档名称', // video game
+  '文档名称', // JavaScript
+  '文档名称', // game
 ]
 
 function createProject () {

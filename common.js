@@ -11,14 +11,14 @@ function supportsVerticalInputs () {
 if (!supportsVerticalInputs()) {
   const firefoxLink = document.createElement('a')
   firefoxLink.textContent = '火狐'
-  firefoxLink.href = 'https://www.mozilla.org/en-US/firefox/new/'
+  firefoxLink.href = 'https://www.mozilla.org/zh-CN/firefox/new/'
 
   const message = document.createElement('div')
   message.className = 'firefox-warning'
   message.append(
-    '팃網사이트우엘크스베스트온',
+    '本站推荐您使用',
     firefoxLink,
-    '。'
+    '访问。'
   )
   document.body.prepend(message)
 }
